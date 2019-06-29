@@ -34,7 +34,7 @@ class _State extends State<MyApp>{
         child: new Center(
           child: new Column(
             children: <Widget>[
-              new Text("Test "+_value),
+              new Text(_value),
               new RaisedButton(onPressed: _selectDate, child: new Text('Click me'),)
             ],
           ),
